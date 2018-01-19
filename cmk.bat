@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\VsMSBuildCmd.bat" set CMAKE_PREFIX_PATH=C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl

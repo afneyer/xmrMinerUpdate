@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\e23917fcdfb4a7201b6707e99b2a2e37\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6FEDBEC8-6108-3BC5-B441-94BC816C4A18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D070DE73-0D37-3088-A0F3-AF0F9CD54357}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>xmr-stak</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xmr-stak.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xmr-stak</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xmr-stak.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xmr-stak</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">xmr-stak.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">xmr-stak</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">xmr-stak.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">xmr-stak</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CONF_NO_CUDA;BACKEND_TYPE=amd-cpu;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CONF_NO_CUDA;BACKEND_TYPE=amd-cpu;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\lib\libmicrohttpd.lib;C:\OpenSSL-Win64\lib\VC\ssleay32MDd.lib;C:\OpenSSL-Win64\lib\VC\libeay32MDd.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\lib\libhwloc.lib;wsock32.lib;ws2_32.lib;bin\Debug\xmr-stak-c.lib;bin\Debug\xmr-stak-backend.lib;bin\Debug\xmr-stak-c.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\lib\libmicrohttpd.lib;C:\OpenSSL-Win64\lib\VC\ssleay32MDd.lib;C:\OpenSSL-Win64\lib\VC\libeay32MDd.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\lib\libhwloc.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/AMD APP SDK/2.9-1/lib/x86_64/OpenCL.lib;C:/Program Files (x86)/AMD APP SDK/2.9-1/lib/x86_64/OpenCL.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/bin/Debug/xmr-stak.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/bin/Debug/xmr-stak.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CONF_NO_CUDA;BACKEND_TYPE=amd-cpu;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CONF_NO_CUDA;BACKEND_TYPE=amd-cpu;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\lib\libmicrohttpd.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\ssleay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\libeay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\lib\libhwloc.lib;wsock32.lib;ws2_32.lib;bin\Release\xmr-stak-c.lib;bin\Release\xmr-stak-backend.lib;bin\Release\xmr-stak-c.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\lib\libmicrohttpd.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\ssleay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\libeay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\lib\libhwloc.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/AMD APP SDK/2.9-1/lib/x86_64/OpenCL.lib;C:/Program Files (x86)/AMD APP SDK/2.9-1/lib/x86_64/OpenCL.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/bin/Release/xmr-stak.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/bin/Release/xmr-stak.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CONF_NO_CUDA;BACKEND_TYPE=amd-cpu;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CONF_NO_CUDA;BACKEND_TYPE=amd-cpu;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\lib\libmicrohttpd.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\ssleay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\libeay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\lib\libhwloc.lib;wsock32.lib;ws2_32.lib;bin\MinSizeRel\xmr-stak-c.lib;bin\MinSizeRel\xmr-stak-backend.lib;bin\MinSizeRel\xmr-stak-c.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\lib\libmicrohttpd.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\ssleay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\libeay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\lib\libhwloc.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/AMD APP SDK/2.9-1/lib/x86_64/OpenCL.lib;C:/Program Files (x86)/AMD APP SDK/2.9-1/lib/x86_64/OpenCL.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/bin/MinSizeRel/xmr-stak.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/bin/MinSizeRel/xmr-stak.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CONF_NO_CUDA;BACKEND_TYPE=amd-cpu;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CONF_NO_CUDA;BACKEND_TYPE=amd-cpu;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\.;C:\Program Files (x86)\AMD APP SDK\2.9-1\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\include;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\lib\libmicrohttpd.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\ssleay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\libeay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\lib\libhwloc.lib;wsock32.lib;ws2_32.lib;bin\RelWithDebInfo\xmr-stak-c.lib;bin\RelWithDebInfo\xmr-stak-backend.lib;bin\RelWithDebInfo\xmr-stak-c.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\libmicrohttpd\lib\libmicrohttpd.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\ssleay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\openssl\lib\libeay32.lib;C:\afndev\mining\xmr-stak\xmr-stak-dep\hwloc\lib\libhwloc.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/AMD APP SDK/2.9-1/lib/x86_64/OpenCL.lib;C:/Program Files (x86)/AMD APP SDK/2.9-1/lib/x86_64/OpenCL.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/bin/RelWithDebInfo/xmr-stak.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/bin/RelWithDebInfo/xmr-stak.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/afndev/mining/xmr-stak/xmr-stak-2.1.0 -BC:/afndev/mining/xmr-stak/xmr-stak-2.1.0 --check-stamp-file C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeLists.txt;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeCCompiler.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenCL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/afndev/mining/xmr-stak/xmr-stak-2.1.0 -BC:/afndev/mining/xmr-stak/xmr-stak-2.1.0 --check-stamp-file C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeLists.txt;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeCCompiler.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenCL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/afndev/mining/xmr-stak/xmr-stak-2.1.0 -BC:/afndev/mining/xmr-stak/xmr-stak-2.1.0 --check-stamp-file C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeLists.txt;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeCCompiler.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenCL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/afndev/mining/xmr-stak/xmr-stak-2.1.0 -BC:/afndev/mining/xmr-stak/xmr-stak-2.1.0 --check-stamp-file C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/afndev/mining/xmr-stak/xmr-stak-2.1.0/CMakeLists.txt;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeCCompiler.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\3.10.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenCL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\cli\cli-miner.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\ZERO_CHECK.vcxproj">
+      <Project>{48A9CFCC-E342-32DD-8D6E-A45EFCFE0E1A}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmr-stak-backend.vcxproj">
+      <Project>{9EC76613-A3BE-312B-8468-A557E11ACC90}</Project>
+      <Name>xmr-stak-backend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmr-stak-c.vcxproj">
+      <Project>{C64F93FC-14D9-3305-9311-13967F8EAE63}</Project>
+      <Name>xmr-stak-c</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

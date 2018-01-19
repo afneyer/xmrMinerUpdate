@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\jconf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\backend\cpu\hwlocMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\backend\cpu\jconf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\backend\cpu\minethd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\backend\backendConnector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\backend\globalStates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\backend\cpu\crypto\cryptonight_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\http\httpd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\http\webdesign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\misc\console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\misc\executor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\misc\telemetry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\misc\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\net\jpsock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\xmrstak\net\socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\afndev\mining\xmr-stak\xmr-stak-2.1.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E412ED98-A88D-3356-B83B-2D8D8EB84532}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
