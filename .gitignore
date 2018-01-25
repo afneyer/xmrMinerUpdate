@@ -25,3 +25,12 @@ xmr-stak.kdev4
 /xmr-stak-c.dir/Release
 /xmr-stak.dir/Release
 /xmrstak_opencl_backend.dir/Release
+/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0
+/tests/Release
+/tests/x64/Debug
+/tests/x64/Release
+/x64/Debug
+/xmr-stak-backend.dir/Debug
+/xmr-stak-c.dir/Debug
+/xmr-stak.dir/Debug
+/xmrstak_opencl_backend.dir/Debug

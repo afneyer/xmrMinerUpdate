@@ -1,6 +1,7 @@
 #pragma once
 
-#include "xmrstak/misc/environment.hpp"
+// #include "xmrstak/misc/environment.hpp"
+#include "environment.hpp"
 
 #include <mutex>
 
