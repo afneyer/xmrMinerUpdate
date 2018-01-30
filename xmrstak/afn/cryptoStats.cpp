@@ -8,7 +8,7 @@
 #include <iosfwd>
 #include <sstream>
 // #include "windows.h"
-#include "psapi.h"
+// #include "psapi.h"
 
 
 std::vector<int> cryptoStats::hashBits;
