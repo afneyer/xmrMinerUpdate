@@ -3,7 +3,7 @@
 #include <cstring>
 #include <string>
 #include <fstream>
-#include <windows.h>
+// #include <windows.h>
 #include <algorithm>
 #include <iterator>
 #include <random>
@@ -56,7 +56,7 @@ void stats::readNoncesFromFile()
 	inFile.open("nonceList.txt");
 	if (!inFile) {
 		printer::inst()->print_msg(L1, "Unable to open file nonceList.txt");
-		printer::inst()->print_msg(L1, "Path =%s", getexepath());
+		// printer::inst()->print_msg(L1, "Path =%s", getexepath());
 		exit(1);   // call system to stop
 	}
 	int k = 0;
@@ -85,6 +85,7 @@ void stats::writeNonceValuesToFile()
 	ofile.close();
 }
 
+/* windows specific
 std::string stats::getexepath()
 {
 	char result[MAX_PATH];
@@ -92,6 +93,7 @@ std::string stats::getexepath()
 	std::string s = std::string(result);
 	return s;
 }
+*/
 
 void stats::dir( std::string path) {
 	std::string s = "";

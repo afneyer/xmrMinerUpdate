@@ -12,7 +12,7 @@ public:
 	// read kValues from file
 	static void readNoncesFromFile();
 	static void writeNonceValuesToFile();
-	static std::string getexepath();
+	// static std::string getexepath();
 
 	static void dir(std::string path);
 
