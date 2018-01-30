@@ -67,10 +67,10 @@ private:
 	static const int randomSize = 16384;
 	static std::map<int, int> randomMap;
 
-	static uint64_t stats::difficultyCounter;
-	static uint64_t stats::targetSum;
-	static uint64_t stats::difficultyLow;
-	static uint64_t stats::difficultyLowSum;
+	static uint64_t difficultyCounter;
+	static uint64_t targetSum;
+	static uint64_t difficultyLow;
+	static uint64_t difficultyLowSum;
 
 };
 
