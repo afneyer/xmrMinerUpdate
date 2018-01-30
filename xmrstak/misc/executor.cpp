@@ -45,6 +45,11 @@
 #include <assert.h>
 #include <time.h>
 
+/* afn start */
+#include "../afn/stats.h"
+#include "../afn/cryptoStats.h"
+/* afn stop */
+
 
 #ifdef _WIN32
 #define strncasecmp _strnicmp
@@ -401,6 +406,7 @@ void executor::on_pool_have_job(size_t pool_id, pool_job& oPoolJob)
 	}
 	else
 		printer::inst()->print_msg(L3, "New block detected.");
+		cryptoStats::resetStats();
 }
 
 void executor::on_miner_result(size_t pool_id, job_result& oResult)

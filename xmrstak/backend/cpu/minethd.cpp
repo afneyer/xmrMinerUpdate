@@ -65,6 +65,12 @@
 
 #endif //_WIN32
 
+/* afn start */
+#include <fstream>
+#include "xmrstak/afn/stats.h"
+#include "xmrstak/afn/cryptoStats.h"
+/*afn end */
+
 namespace xmrstak
 {
 namespace cpu
@@ -279,6 +285,11 @@ bool minethd::self_test()
 
 std::vector<iBackend*> minethd::thread_starter(uint32_t threadOffset, miner_work& pWork)
 {
+
+	/* afn start */
+	cryptoStats::buildHashNonceMaps();
+	/* afn end */
+
 	std::vector<iBackend*> pvThreads;
 
 	if(!configEditor::file_exist(params::inst().configFileCPU))
@@ -390,6 +401,10 @@ void minethd::work_main()
 	uint32_t* piNonce;
 	job_result result;
 
+	uint32_t startNonce;
+	uint32_t iNonce;
+	uint32_t iHash;
+
 	hash_fun = func_selector(::jconf::inst()->HaveHardwareAes(), bNoPrefetch, ::jconf::inst()->IsCurrencyMonero());
 	ctx = minethd_alloc_ctx();
 
@@ -423,6 +438,8 @@ void minethd::work_main()
 		if(oWork.bNiceHash)
 			result.iNonce = *piNonce;
 
+		startNonce = 0;
+
 		while(globalStates::inst().iGlobalJobNo.load(std::memory_order_relaxed) == iJobNo)
 		{
 			if ((iCount++ & 0xF) == 0) //Store stats every 16 hashes
@@ -438,12 +455,40 @@ void minethd::work_main()
 				globalStates::inst().calc_start_nonce(result.iNonce, oWork.bNiceHash, nonce_chunk);
 			}
 
-			*piNonce = ++result.iNonce;
+			// *piNonce = ++result.iNonce;
+			// iNonce = *piNonce;
+			iHash = (int)stats::getWorkEndFromWorkBlob(oWork.bWorkBlob, 10, 0);
+			iNonce = cryptoStats::getNonce(iHash);
+			result.iNonce = iNonce;
+			*piNonce = iNonce;
 
 			hash_fun(oWork.bWorkBlob, oWork.iWorkSize, result.bResult, ctx);
 
-			if (*piHashVal < oWork.iTarget)
+			if (*piHashVal < oWork.iTarget) {
+				
 				executor::inst()->push_event(ex_event(result, oWork.iPoolId));
+
+				printer::inst()->print_msg(L4, "start nonce      0 = %i", startNonce);
+				printer::inst()->print_msg(L4, "good nonce       0 = %i", iNonce);
+				printer::inst()->print_msg(L4, "total hashes     0 = %i", iCount - 1);
+
+				// stats::printBytes(bDoubleWorkBlob,0,75,"bDoubleWorkBlob 0");
+
+				// stats::printBytes(we640,4,"we640-4");
+				// stats::printBytes((uint32_t*) bDoubleWorkBlob, 112, "w0");
+				stats::difficultyStats(oWork.iTarget, *piHashVal);
+				uint32_t nonce = stats::getNonceFromWorkBlob(oWork.bWorkBlob, 0);
+				printer::inst()->print_msg(L4, "nonce from work  0 = %i", nonce);
+
+				stats::printBytes(oWork.bWorkBlob, 35, 38, "endWorkBytes 0");
+				uint32_t inputBytes = stats::getWorkEndFromWorkBlob(oWork.bWorkBlob, 10, 0);
+				printer::inst()->print_msg(L4, "bytes from work  0 = %i", inputBytes);
+				printer::inst()->print_msg(L4, "input,nonce       0 = %i,%i", inputBytes, iNonce);
+
+				// stats::addtoNonceList(iNonce0, hashCount);
+				cryptoStats::addPoint((int)inputBytes, iNonce);
+
+			}
 
 			std::this_thread::yield();
 		}
