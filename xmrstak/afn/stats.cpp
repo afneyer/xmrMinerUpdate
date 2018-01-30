@@ -10,7 +10,7 @@
 // #include <filesystem>
 
 // using namespace std::experimental::filesystem;
-namespace fs = std::experimental::filesystem;
+// namespace fs = std::experimental::filesystem;
 
 
 std::vector<int> stats::nonceList;
