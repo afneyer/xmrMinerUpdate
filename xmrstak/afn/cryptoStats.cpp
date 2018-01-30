@@ -30,7 +30,7 @@ void cryptoStats::readFromFile( std::string filePathName )
 	if (!inFile) {
 		printer::inst()->print_msg(L1, "Unable to open file %s", filePathName.c_str());
 		// printer::inst()->print_msg(L1, "Path = %s", stats::getexepath().c_str());
-		stats::dir("./");
+		// stats::dir("./");
 		exit(1);   // call system to stop
 	}
 	int k = 0;

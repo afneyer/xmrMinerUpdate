@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <iterator>
 #include <random>
-#include <filesystem>
+// #include <filesystem>
 
 // using namespace std::experimental::filesystem;
 namespace fs = std::experimental::filesystem;
@@ -95,6 +95,7 @@ std::string stats::getexepath()
 }
 */
 
+/* windows specific
 void stats::dir( std::string path) {
 	std::string s = "";
 	std::string a = "";
@@ -106,6 +107,7 @@ void stats::dir( std::string path) {
 	}
 	printer::inst()->print_msg(L4, "root: %s",a);
 }
+*/
 
 void stats::updateNonceValue() {
 
